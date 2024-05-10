@@ -1,0 +1,35 @@
+//============================================================================
+// Name        : functions.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <stdio.h>
+#include <stdio.h>
+void sum(int,int);
+int main() {
+	int a,b;
+	For windows OS Put this command after Variable declaration
+
+	setbuf(stdout,NULL);
+
+	Press the stop 🛑 button in the left side top corner 2,3 times then Save Build Run
+
+	example :
+	int main( ){
+	int a;
+	setbuf(stdout , NULL);
+	printf("enter a numer ");
+	scanf("%d" ,&a);
+	}
+	printf("Enter 2 numbers");
+	scanf("%d%d",&a,&b);
+	return 0;
+}
+void sum(int num1,int num2){
+	int result;
+	result=num1+num2;
+	printf("Result is %d",result);
+}

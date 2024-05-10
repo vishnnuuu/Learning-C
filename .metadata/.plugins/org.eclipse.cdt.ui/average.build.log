@@ -1,0 +1,53 @@
+01:06:44 **** Incremental Build of configuration Debug for project average ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\average.o" "..\\src\\average.c" 
+..\src\average.c: In function 'main':
+..\src\average.c:15:2: error: unknown type name 'flote'; did you mean 'float'?
+  flote num1,num2,num3,averaf,$num3);
+  ^~~~~
+  float
+..\src\average.c:15:35: error: expected '=', ',', ';', 'asm' or '__attribute__' before ')' token
+  flote num1,num2,num3,averaf,$num3);
+                                   ^
+..\src\average.c:17:19: error: '$num1' undeclared (first use in this function); did you mean 'num1'?
+  scanf("%f,%f,%f",$num1,$num2,$num3)
+                   ^~~~~
+                   num1
+..\src\average.c:17:19: note: each undeclared identifier is reported only once for each function it appears in
+..\src\average.c:17:25: error: '$num2' undeclared (first use in this function); did you mean 'num2'?
+  scanf("%f,%f,%f",$num1,$num2,$num3)
+                         ^~~~~
+                         num2
+..\src\average.c:17:31: error: '$num3' undeclared (first use in this function); did you mean 'num3'?
+  scanf("%f,%f,%f",$num1,$num2,$num3)
+                               ^~~~~
+                               num3
+..\src\average.c:17:37: error: expected ';' before 'average'
+  scanf("%f,%f,%f",$num1,$num2,$num3)
+                                     ^
+                                     ;
+  average=(num1,num2,num3)/3;
+  ~~~~~~~                             
+..\src\average.c:19:2: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  print("Average is :%f",average);
+  ^~~~~
+  printf
+..\src\average.c:19:25: error: 'average' undeclared (first use in this function); did you mean 'averaf'?
+  print("Average is :%f",average);
+                         ^~~~~~~
+                         averaf
+..\src\average.c:15:23: warning: unused variable 'averaf' [-Wunused-variable]
+  flote num1,num2,num3,averaf,$num3);
+                       ^~~~~~
+..\src\average.c:15:18: warning: unused variable 'num3' [-Wunused-variable]
+  flote num1,num2,num3,averaf,$num3);
+                  ^~~~
+..\src\average.c:15:13: warning: unused variable 'num2' [-Wunused-variable]
+  flote num1,num2,num3,averaf,$num3);
+             ^~~~
+..\src\average.c:15:8: warning: unused variable 'num1' [-Wunused-variable]
+  flote num1,num2,num3,averaf,$num3);
+        ^~~~
+
+01:06:45 Build Failed. 7 errors, 5 warnings. (took 118ms)
+

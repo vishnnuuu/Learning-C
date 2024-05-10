@@ -1,0 +1,28 @@
+  /*
+ ============================================================================
+ Name        : without.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+int sum (int,int);
+int main(void) {
+	int res;
+	setbuf(stdout,NULL);
+	res=sum(a+b);
+	printf("%d",res);
+	return 0;
+return EXIT_SUCCESS;
+}
+}int sum(){
+   int a,b,res;
+   printf("Enter 2 numbers");
+   scanf("%d%d",&a,&b);
+   res=sum(a+b);
+   return res;
+}

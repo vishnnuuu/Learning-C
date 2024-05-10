@@ -1,0 +1,7 @@
+13:15:16 **** Incremental Build of configuration Debug for project without argiment without return ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\without argiment without return.o" "..\\src\\without argiment without return.c" 
+gcc -o "without argiment without return.exe" "src\\without argiment without return.o" 
+
+13:15:17 Build Finished. 0 errors, 0 warnings. (took 329ms)
+

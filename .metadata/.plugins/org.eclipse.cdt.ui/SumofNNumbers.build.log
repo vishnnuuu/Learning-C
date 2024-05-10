@@ -1,0 +1,11 @@
+16:06:33 **** Rebuild of configuration Debug for project SumofNNumbers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SumofNNumbers.o" "..\\src\\SumofNNumbers.c" 
+..\src\SumofNNumbers.c: In function 'main':
+..\src\SumofNNumbers.c:16:15: warning: 'i' is used uninitialized in this function [-Wuninitialized]
+  int number,i,sum=i;
+               ^~~
+gcc -o SumofNNumbers.exe "src\\SumofNNumbers.o" 
+
+16:06:37 Build Finished. 0 errors, 1 warnings. (took 3s.869ms)
+

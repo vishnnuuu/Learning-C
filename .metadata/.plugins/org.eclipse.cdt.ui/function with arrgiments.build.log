@@ -1,0 +1,8 @@
+13:09:51 **** Incremental Build of configuration Debug for project function with arrgiments ****
+Info: Internal Builder is used for build
+gcc -o "function with arrgiments.exe" "src\\function with arrgiments.o" 
+C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/ld.exe: cannot open output file function with arrgiments.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+13:09:51 Build Failed. 1 errors, 0 warnings. (took 229ms)
+

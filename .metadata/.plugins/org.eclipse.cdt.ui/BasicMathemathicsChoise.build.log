@@ -1,0 +1,11 @@
+01:26:00 **** Incremental Build of configuration Debug for project BasicMathemathicsChoise ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BasicMathemathicsChoise.o" "..\\src\\BasicMathemathicsChoise.c" 
+..\src\BasicMathemathicsChoise.c: In function 'main':
+..\src\BasicMathemathicsChoise.c:22:3: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   printf("Result=%d",result);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o BasicMathemathicsChoise.exe "src\\BasicMathemathicsChoise.o" 
+
+01:26:00 Build Finished. 0 errors, 1 warnings. (took 396ms)
+

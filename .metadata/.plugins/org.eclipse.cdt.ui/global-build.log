@@ -1,0 +1,20 @@
+13:49:36 **** Incremental Build of configuration Debug for project arrgiment and return ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrgiment and return.o" "..\\src\\arrgiment and return.c" 
+..\src\arrgiment and return.c:13:13: error: two or more data types in declaration specifiers
+ int sum(int int);
+             ^~~
+..\src\arrgiment and return.c: In function 'main':
+..\src\arrgiment and return.c:19:4: error: too many arguments to function 'sum'
+  c=sum(a,b);
+    ^~~
+..\src\arrgiment and return.c:13:5: note: declared here
+ int sum(int int);
+     ^~~
+..\src\arrgiment and return.c: At top level:
+..\src\arrgiment and return.c:24:5: error: conflicting types for 'sum'
+ int sum(int num1,int num2){
+     ^~~
+..\src\arrgiment and return.c:13:5: note: previous declaration of 'sum' was here
+ int sum(int int);
+     ^~~
